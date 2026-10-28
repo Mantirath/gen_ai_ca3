@@ -1,0 +1,19 @@
+{
+  "name": "talentverse-ai",
+  "version": "1.0.0",
+  "description": "TalentVerse AI - Career Intelligence Engine (Express + SQLite + Gemini + Zod)",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "zod": "^4.6.7"
+  }
+}
